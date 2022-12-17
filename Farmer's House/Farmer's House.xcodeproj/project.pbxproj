@@ -13,6 +13,7 @@
 		9E249943294C4843004C08B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E249942294C4843004C08B1 /* Preview Assets.xcassets */; };
 		9E24994E294C4ABE004C08B1 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24994D294C4ABE004C08B1 /* ProductModel.swift */; };
 		9E249951294CB5FD004C08B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E249950294CB5FD004C08B1 /* Extensions.swift */; };
+		9E249953294E04DE004C08B1 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E249952294E04DE004C08B1 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9E249942294C4843004C08B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E24994D294C4ABE004C08B1 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		9E249950294CB5FD004C08B1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9E249952294E04DE004C08B1 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,6 @@
 		9E24992F294C4841004C08B1 = {
 			isa = PBXGroup;
 			children = (
-				9E24994F294CB5EB004C08B1 /* Utils */,
 				9E24993A294C4841004C08B1 /* Farmer's House */,
 				9E249939294C4841004C08B1 /* Products */,
 			);
@@ -56,6 +57,7 @@
 		9E24993A294C4841004C08B1 /* Farmer's House */ = {
 			isa = PBXGroup;
 			children = (
+				9E24994F294CB5EB004C08B1 /* Utils */,
 				9E24993B294C4841004C08B1 /* Farmer_s_HouseApp.swift */,
 				9E24994C294C488C004C08B1 /* Model */,
 				9E249949294C485F004C08B1 /* Main */,
@@ -86,6 +88,7 @@
 		9E24994A294C4868004C08B1 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				9E249952294E04DE004C08B1 /* SearchBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				9E24993E294C4841004C08B1 /* ContentView.swift in Sources */,
 				9E24994E294C4ABE004C08B1 /* ProductModel.swift in Sources */,
+				9E249953294E04DE004C08B1 /* SearchBar.swift in Sources */,
 				9E24993C294C4841004C08B1 /* Farmer_s_HouseApp.swift in Sources */,
 				9E249951294CB5FD004C08B1 /* Extensions.swift in Sources */,
 			);
